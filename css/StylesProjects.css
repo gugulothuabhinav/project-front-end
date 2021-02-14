@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Roboto,sans-serif;
+}
+body
+{
+    background :url("../images/bg.jpg") no-repeat top center;
+    background-size: cover;
+    height: 130vh;
+}
+.institute-name
+{
+    position: absolute;
+    top: 10%;
+    left: 26%;
+    height: 12%;
+    width: 50%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    text-align: center;
+    border-radius: 50px;
+}
+.heading-1
+{
+    text-align: center;
+    position: absolute;
+    height: 6%;
+    width: 28%;
+    top: 33%;
+    left: 37%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    border-radius: 20px;
+}
+.wrapper
+{
+    position: absolute;
+    top: 52%;
+    left: 10%;
+    height: 75%;
+    width: 80%;
+    background: rgba(0,0,0,0.8);
+    border-radius: 50px;
+    font-size: 17px;
+}
+.left
+{
+    position: absolute;
+    padding-top: 4%;
+    padding-left: 14%;
+    color: aqua;
+}
+.Right
+{
+    position: absolute;
+    right: 8%;
+    top: 55%;
+    padding-top: 2%;
+    padding-left: 5%;
+    left: 40%;
+    padding-bottom: 8%;
+    color: aqua;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #010b12);
+    background-image: -moz-linear-gradient(top, #3498db, #010b12);
+    background-image: -ms-linear-gradient(top, #3498db, #010b12);
+    background-image: -o-linear-gradient(top, #3498db, #010b12);
+    background-image: linear-gradient(to bottom, #3498db, #010b12);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 40px 5px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 5px;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: -o-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: linear-gradient(to bottom, #3cb0fd, #88a6ba);
+    text-decoration: none;
+    cursor: pointer;
+}
+.period
+{
+    padding-left: 40px;
+    padding-right: 30px;
+}
+.view
+{
+    padding-right: 30px;
+    cursor: pointer;
+}
+.download
+{
+    color: #3498db;
+    font-size: 18px;
+}
+button
+{
+    margin-bottom: 5px;
+}

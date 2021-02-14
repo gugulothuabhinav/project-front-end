@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+    outline: none;
+}
+body
+{
+    background: url("../images/bg.jpg") no-repeat top center;
+    background-size: cover;
+    height: 160vh;
+}
+.profile
+{
+    text-align: center;
+    position: absolute;
+    height: 7%;
+    width: 13%;
+    top: 38%;
+    left: 40%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    border-radius: 20px;
+}
+.wrapper
+{
+    position: absolute;
+    top: 55%;
+    left: 13%;
+    height: 75%;
+    width: 75%;
+    background: rgba(0,0,0,0.6);
+}
+.profile-fields
+{
+    position: relative;
+    left: 5%;
+    top: 27%;
+    width: 80%;
+    color: aqua;
+}
+.colon
+{
+    padding-right: 50px;
+}
+.inputs
+{
+    font-size: 20px;
+    border-style: none;
+
+}
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #c5ecfd;
+}
+.inputs{
+    width: 50%;
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    padding: 0;
+    color: #c5ecfd;
+}
+input
+{
+    width: 90%;
+    font-size: 20px;
+    height: 25px;
+    color: #39b7dd;
+    size: 130px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #c5ecfd ;
+}
+.user-image
+{
+    position: absolute;
+    right: 4%;
+    top: 25%;
+    height: 230px;
+    width: 230px;
+}
+.details
+{
+    width: 80%;
+}
+span
+{
+    color: dimgrey;
+}
+.institute-name
+{
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    height: 12%;
+    width: 52%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    text-align: center;
+    border-radius: 50px;
+}
+.new-pic
+{
+    border-radius: 50%;
+}

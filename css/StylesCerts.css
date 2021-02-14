@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Roboto,sans-serif;
+}
+body
+{
+    background :url("../images/bg.jpg") no-repeat top center;
+    background-size: cover;
+    height: 150vh;
+}
+.institute-name
+{
+    position: absolute;
+    top: 10%;
+    left: 26%;
+    height: 12%;
+    width: 50%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    text-align: center;
+    border-radius: 50px;
+}
+.heading-1
+{
+    text-align: center;
+    position: absolute;
+    height: 6%;
+    width: 15%;
+    top: 33%;
+    left: 41%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    border-radius: 20px;
+}
+.wrapper
+{
+    position: absolute;
+    top: 52%;
+    left: 5%;
+    height: 80%;
+    width: 90%;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50px;
+}
+.heading-2
+{
+    text-align: center;
+    position: absolute;
+    padding: 2px;
+    height: 7%;
+    width: 28%;
+    top: 5%;
+    left: 35%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    border-radius: 20px;
+}
+.cert-fields-left
+{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 60%;
+    color: aqua;
+    font-size: 19px;
+}
+.cert-fields-right
+{
+    position: absolute;
+    top: 25%;
+    right: 13%;
+    color: aqua;
+    font-size: 19px;
+}
+.colon
+{
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgba(18,225,255,0.99);
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #010b12);
+    background-image: -moz-linear-gradient(top, #3498db, #010b12);
+    background-image: -ms-linear-gradient(top, #3498db, #010b12);
+    background-image: -o-linear-gradient(top, #3498db, #010b12);
+    background-image: linear-gradient(to bottom, #3498db, #010b12);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 5px 40px 5px 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 5px;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: -o-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: linear-gradient(to bottom, #3cb0fd, #88a6ba);
+    text-decoration: none;
+    cursor: pointer;
+}
+.view
+{
+    padding-left: 40px;
+}
+td
+{
+    padding-bottom: 0.5em;
+}

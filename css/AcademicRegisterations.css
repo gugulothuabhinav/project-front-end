@@ -1,0 +1,123 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Roboto,sans-serif;
+}
+body
+{
+    background :url("../images/bg.jpg") no-repeat top center;
+    background-size: cover;
+    height: 150vh;
+}
+.heading-1
+{
+    text-align: center;
+    position: absolute;
+    height: 6%;
+    width: 25%;
+    top: 33%;
+    left: 39%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    border-radius: 20px;
+}
+.wrapper
+{
+    position: absolute;
+    top: 52%;
+    left: 16%;
+    height: 90%;
+    width: 70%;
+    background: rgba(0,0,0,0.7);
+    border-radius: 50px;
+}
+.semester-selection
+{
+    position: absolute;
+    top: 8%;
+    left: 20%;
+    color: aqua;
+    font-size: 18px;
+}
+.colon
+{
+    padding-top: 2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+h3
+{
+    padding-top: 6px;
+}
+#semester
+{
+    color: #c5ecfd;
+    font-size: 18px;
+    height: 36px;
+    width: 200px;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #39b7dd;
+}
+option
+{
+    color: #39b7dd;
+    background-color: rgba(0,0,0,0.8);
+}
+.go
+{
+    cursor: pointer;
+    position: absolute;
+    top: 8%;
+    right: 30%;
+}
+#semester
+{
+    height: 28px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #010b12);
+    background-image: -moz-linear-gradient(top, #3498db, #010b12);
+    background-image: -ms-linear-gradient(top, #3498db, #010b12);
+    background-image: -o-linear-gradient(top, #3498db, #010b12);
+    background-image: linear-gradient(to bottom, #3498db, #010b12);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-family: Roboto, sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 4px 32px 4px 32px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 5px;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: -o-linear-gradient(top, #3cb0fd, #88a6ba);
+    background-image: linear-gradient(to bottom, #3cb0fd, #88a6ba);
+    text-decoration: none;
+    cursor: pointer;
+}
+.submit
+{
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    left: 46%;
+}
+.footer
+{
+    position: absolute;
+    bottom: 3%;
+    left: 26%;
+    color: #3498db;
+}

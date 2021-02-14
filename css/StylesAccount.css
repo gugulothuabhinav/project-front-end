@@ -1,0 +1,126 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Roboto,sans-serif;
+}
+body
+{
+    background :url("../images/bg.jpg") no-repeat top center;
+    background-size: cover;
+    height: 130vh;
+}
+.institute-name
+{
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    height: 12%;
+    width: 50%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    text-align: center;
+    border-radius: 50px;
+}
+.heading-1
+{
+    text-align: center;
+    position: absolute;
+    height: 6%;
+    width: 15%;
+    top: 33%;
+    left: 42%;
+    background: rgba(0,0,0,0.8);
+    color: aqua;
+    border-radius: 20px;
+}
+.wrapper
+{
+    position: absolute;
+    top: 52%;
+    left: 8%;
+    height: 72%;
+    width: 85%;
+    background: rgba(0,0,0,0.8);
+    border-radius: 50px;
+}
+.password
+{
+    position: absolute;
+    top: 18%;
+    left: 18%;
+    color: aqua;
+    width: 60%;
+}
+.colon
+{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+input
+{
+    color: #c5ecfd;
+    outline: 0;
+    font-size: 18px;
+    height: 28px;
+    width: 300px;
+    background:transparent;
+    border: 2px solid #39b7dd;
+    border-radius: 15px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.cancel-btn,
+.save-changes-btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 40px 5px 40px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.save-changes-btn:hover{
+    background: #2d556e;
+    background-image: -webkit-linear-gradient(top, #2d556e, #427ba1);
+    background-image: -moz-linear-gradient(top, #2d556e, #427ba1);
+    background-image: -ms-linear-gradient(top, #2d556e, #427ba1);
+    background-image: -o-linear-gradient(top, #2d556e, #427ba1);
+    background-image: linear-gradient(to bottom, #2d556e, #427ba1);
+}
+.cancel-btn:hover{
+    background: #2d556e;
+    background-image: -webkit-linear-gradient(top, #2d556e, #427ba1);
+    background-image: -moz-linear-gradient(top, #2d556e, #427ba1);
+    background-image: -ms-linear-gradient(top, #2d556e, #427ba1);
+    background-image: -o-linear-gradient(top, #2d556e, #427ba1);
+    background-image: linear-gradient(to bottom, #2d556e, #427ba1);
+}
+.save-changes-btn
+{
+    position: absolute;
+    top: 65%;
+    left: 18%;
+}
+.cancel-btn
+{
+    position: absolute;
+    top: 65%;
+    right: 32%;
+}
+td
+{
+    padding-bottom: 0.75em;
+}

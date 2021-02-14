@@ -1,0 +1,42 @@
+.first
+{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.second
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.institute-name
+{
+    font-size: 18px;
+    position: absolute;
+    top: 5%;
+    left: 17%;
+    text-align: center;
+    height: 100px;
+    width: 470px;
+    background: transparent;
+    color: aqua;
+}
+.two-logo
+{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    height: 80px;
+    width: 700px;
+    background: rgba(0,0,0,0.8);
+    border-radius: 50px;
+}
+.college-name
+{
+    font-size: 21px;
+}
+img
+{
+    border-radius: 50%;
+}
